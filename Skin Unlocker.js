@@ -19,7 +19,6 @@
         if(response.url=="https://api.dashcraft.io/auth/account"){
             const clone = await response.clone()
             const data = await response.clone().json();
-            data._id = "6a32c2495e5e07107e6a1ca4"
             let exp = 1000000
             data.xp=exp
             data.leagueNr=exp
